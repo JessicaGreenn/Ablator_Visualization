@@ -1,0 +1,57 @@
+.text{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid #000;   
+    margin: 0 auto;  /* set border at center */
+    width: 580px;  
+    height: 114px; 
+    border-width: 2px; /* set width of the border line */
+    margin-bottom: 50px;
+
+}
+
+.text h1{
+    padding-top: 40px;
+    font-size: 50px;
+    font-weight: normal;
+    margin: 0;
+    color: #000;
+    
+}
+a:link{
+    text-decoration: none;
+    text-decoration-color: gray;
+}
+a:hover{
+
+    color: black;
+}
+
+.footer{
+    font-size: 13px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 30px;
+}
+.footer img{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+.aspectFill p img{
+    width: 680px;
+    height: auto;
+
+}
+.whole{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%,-17%);
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: white;
+    
+}
